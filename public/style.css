@@ -1,0 +1,28 @@
+body{
+    background-color: blanchedalmond;
+    align-items: center;
+    padding:8%;
+    margin:2%;
+}
+form{
+    padding: 8px;
+}
+input:hover{
+    color: blue;
+}
+input{
+    align-items: center;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    opacity: 0.8;
+    width: 120px;
+    height:50px;
+    cursor: pointer;
+
+}
+.form-container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}

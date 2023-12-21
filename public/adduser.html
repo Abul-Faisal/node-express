@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>ADD User</h1>
+      <form action="http://localhost:8087/adduserstatus" method="post">
+        <p>
+          Name :
+          <input
+            type="text"
+            name="username"
+            id="name"
+            style="width: 200px; height: 20px"
+          />
+        </p>
+        <p>
+          E-mail :
+          <input
+            type="text"
+            name="email"
+            id="mail"
+            style="width: 200px; height: 20px"
+          />
+        </p>
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+  </body>
+</html>
